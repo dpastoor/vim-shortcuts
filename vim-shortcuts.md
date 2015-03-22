@@ -7,4 +7,4 @@
 * `gg/G` - to bottom/to top of file 
 * `mx` - set mark for x (being a-zA-Z)
 * `'x` - goto mark x
-* `V/\`\`\`bb` - select rest of code in Rmd chunk
+* `V/`` ``` `` bb` - select rest of code in Rmd chunk
