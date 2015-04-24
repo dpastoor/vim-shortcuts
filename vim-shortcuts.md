@@ -12,3 +12,7 @@
 * `'x` - goto mark x
 * `` `V/\`\`\`bb` `` - select rest of code in Rmd chunk
 * `A/I` - go to end/beginning of line and enter insert mode
+
+# replacement
+visual replace - s/<existing>/<replacement>
+
