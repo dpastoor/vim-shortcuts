@@ -3,14 +3,20 @@
 * vi{identifier} - select everything inside identifier (eg ), }, etc)
 * ve - select inside word
     - in rstudio ve" will select and put quotes around a word
+* V100G - visually select from your line to (including) line 100
+* v/foo - select from current position to next instance of foo
+  - then press `n` to continue to select to next occurance
+* vap - select around current paragraph
+* v} - select everything to beginning of next paragraph
+
 ## movement
 * `ci<tag>` select delete and go to insert mode between tags - ci" will select all text within quote
-* `vi<tag>` just select 
+* `vi<tag>` just select
 * `0dg` - delete from beginning of current line to end of the file
 * `cw` - change to end of word
 
 # navigation
-* `gg/G` - to bottom/to top of file 
+* `gg/G` - to bottom/to top of file
 * `mx` - set mark for x (being a-zA-Z)
 * `'x` - goto mark x
 * `` `V/\`\`\`bb` `` - select rest of code in Rmd chunk
@@ -34,5 +40,3 @@ visual replace - s/<existing>/<replacement>
 
 :10sp <filename> - specify split height and what file to open
 ## more info https://robots.thoughtbot.com/vim-splits-move-faster-and-more-naturally
-
-
