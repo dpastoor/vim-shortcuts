@@ -1,14 +1,17 @@
 # selection
-* viB - select everything inside { } tags
-* vi{identifier} - select everything inside identifier (eg ), }, etc)
-* ve - select inside word
+* `viB` - select everything inside { } tags
+* `vi{identifier}` - select everything inside identifier (eg ), }, etc)
+* `ve` - select inside word
     - in rstudio ve" will select and put quotes around a word
-* V100G - visually select from your line to (including) line 100
-* v/foo - select from current position to next instance of foo
+* `V100G` - visually select from your line to (including) line 100
+* `v/foo` - select from current position to next instance of foo
   - then press `n` to continue to select to next occurance
-* vap - select around current paragraph
-* v} - select everything to beginning of next paragraph
-* shift+v 9j - select 10 lines
+* `vap` - select around current paragraph
+* `1v}` - select everything to beginning of next paragraph
+* `shift+v 9j` - select 10 lines
+
+### atom specific
+* `gsw <surround-char>` - surround selected text with surround char (ve gsw ")
 
 ## movement
 * `ci<tag>` select delete and go to insert mode between tags - ci" will select all text within quote
