@@ -8,6 +8,7 @@
   - then press `n` to continue to select to next occurance
 * vap - select around current paragraph
 * v} - select everything to beginning of next paragraph
+* shift+v 9j - select 10 lines
 
 ## movement
 * `ci<tag>` select delete and go to insert mode between tags - ci" will select all text within quote
